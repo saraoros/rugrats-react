@@ -11,10 +11,10 @@ function App() {
       <h1>Rugrats Characters</h1>
 
       <div className="image-grid">
-        <Image source={tommy} width="220px" />
-        <Image source={chuckie} width="220px" />
-        <Image source={angelica} width="220px" />
-        <Image source={susie} width="220px" />
+        <Image source={tommy} name="Tommy" />
+        <Image source={chuckie} name="Chuckie" />
+        <Image source={angelica} name="Angelica" />
+        <Image source={susie} name="Susie" />
       </div>
     </div>
   )

@@ -1,10 +1,13 @@
 function Image(props) {
     return (
-        <img
-            className="rugratsImage"
-            src={props.source}
-            width={props.width}
-        />
+        <div className="character-card">
+            <img
+                className="rugratsImage"
+                src={props.source}
+                alt={props.name}
+            />
+            <p className="character-name">{props.name}</p>
+        </div>
     );
 }
 

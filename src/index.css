@@ -28,7 +28,13 @@ h1 {
   width: 220px;
   height: 220px;
   object-fit: cover;
-  /* crop image instead of stretching it */
   border-radius: 50%;
   border: 5px solid rgb(100, 100, 169);
+}
+
+.character-name {
+  margin-top: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #5a2a83;
 }
