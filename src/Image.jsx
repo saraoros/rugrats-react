@@ -1,15 +1,9 @@
-
 function Image(props) {
-
     return (
         <img
+            className="rugratsImage"
             src={props.source}
             width={props.width}
-            style={{
-                borderRadius: "15px",
-                margin: "20px",
-                border: "5px solid red"
-            }}
         />
     );
 }
